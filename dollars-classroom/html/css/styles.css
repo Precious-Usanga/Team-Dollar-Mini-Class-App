@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: 'Roboto', "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #585858;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-color {
+    background-image: linear-gradient(#0D25B9, #FD6585); 
+}
+h1 {
+    font-family: 'Open sans', sans-serif !important;
+    color: #172b4d;
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+p {
+    font-family: 'Open sans', sans-serif !important;
+    color: #fff;
+    font-size: 1rem !important;
+}
+input[type=text] {
+    padding:5px;
+    height: 30px;
+    font-size: 16px;
+}
+.logo {
+    width: 7rem;
+}
+:placeholder-shown {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px !important;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+/* input.form-control:focus {
+    border: none !important;
+} */
+.btn {
+    background-color: #FD6585 !important;
+    border: none;
+}
+.fa4 {
+    color: #172b4d;
+    font-size: 14px !important;
+}
